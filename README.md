@@ -73,7 +73,7 @@ PlayerController class is where a lot of player related work happens. It is defi
 
 Lastly a Player prefab is created which has a chef’s sprite, and 2 TextMesh objects for player’s name and inventory display. PlayerView class is attached to it, along with Box Collider and kinematic RigidBody for interacting with triggers.
 
-### Customer & Implementation
+### Customer & Seat Implementation
 Customer is also extended by CharacterModelAbstract, and along with the override of _time, its properties include a flag for being angry, a flag was leaving satisfied, its own _inventory array and PlayerID of the serving player. The inventory in Player is a list whereas in its an array because the player’s inventory is pretty dynamic, while customer inventory, once set, doesn’t change.
 
 CustomerView plays a basic role of displaying angry and happy looks on customer, using simple red and green color changes(which can be changed later to show different expressions) and displaying its own timer and order inventory using TextMesh.
