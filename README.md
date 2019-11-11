@@ -1,3 +1,6 @@
+# Introduction
+This project is a prototype implementation of a chef game with couch co-op. Players play with WSAD and Arrow keys. Obviously, since this is merely a prototype, not everything is implemented in proper fashion.
+
 # Basic Overview
 The project mainly uses an implementation of MVC for it’s main classes, such as Player, Customer, interactable objects, etc. However, wherever in a few instances of simple functionalities, basic components are written and attached to GameObjects in the scene.
 The game’s left part, apart from customers and veggies, is dedicated to Player1 whereas right for Player2. This means, the extra plate and chopping board on the left can only be used by Player1, the score and timer UI on top left indicate the same for Player1, whereas on the right, the same goes for Player2.
